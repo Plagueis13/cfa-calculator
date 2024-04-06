@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  },
+  "name": "plagueis13.github.io",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "sass": "^1.74.1",
+    "vite": "^5.2.8"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
