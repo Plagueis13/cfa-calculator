@@ -1,21 +1,27 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "playwright": "^1.43.0"
   },
   "name": "plagueis13.github.io",
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {
+    "@playwright/test": "^1.43.0",
     "sass": "^1.74.1",
     "vite": "^5.2.8"
   },
   "scripts": {
     "start": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "be": "nodemon backend/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "type": "module"
 }

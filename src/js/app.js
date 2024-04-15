@@ -1,4 +1,4 @@
-import { getEntrees, getMenuItems } from './apiClient';
+import { getRedeemableMenuItems } from './apiClient';
 
 const item = document.getElementById('item'),
   price = document.getElementById('price'),
@@ -27,14 +27,15 @@ filter.addEventListener('click', (e) => {
 });
 
 export async function fillTable() {
-  const menuItems = await getMenuItems();
-  const entrees = await getEntrees(menuItems);
-  console.log(entrees);
-  entrees.forEach((entree) => {
+  const response = await getRedeemableMenuItems();
+  const menuItems = await response.json();
+  menuItems.forEach((item) => {
     let tr = document.createElement('TR');
     tr.innerHTML = `
-      <td class="align-middle">${entree.name}</td>
-      <td class="align-middle">${entree.itemPrice.toFixed(2)}</td>`;
+      <td class="align-middle">${item.name}</td>
+      <td class="align-middle">${item.price.toFixed(2)}</td>
+      <td class="align-middle">${item.points}</td>
+      <td class="align-middle">${(item.points / item.price).toFixed(2)}</td>`;
     table.appendChild(tr);
   });
 }
