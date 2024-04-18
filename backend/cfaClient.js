@@ -1,4 +1,4 @@
-import { chromium } from 'playwright'
+import { chromium } from '@playwright/test'
 
 export async function getToken() {
   // Playwright test

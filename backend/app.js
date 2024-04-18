@@ -31,6 +31,4 @@ app.get('/getRewards', async (req, res) => {
   res.send(await getRedeemableItems())
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+app.listen(port)
