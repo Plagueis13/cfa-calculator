@@ -9,7 +9,7 @@ export async function getToken() {
 
   // Navigate to the Express server
   const tokenPromise = page.waitForResponse(/assets\/AccessTokenCheck/)
-  await page.goto('https://order.chick-fil-a.com')
+  await page.goto('https://order.chick-fil-a.com/get-started')
   try {
     await tokenPromise
   } catch (e) {
