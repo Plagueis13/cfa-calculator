@@ -1,7 +1,6 @@
 import { chromium } from '@playwright/test'
 
 export async function getToken() {
-  // Playwright test
   // Launch the browser
   const browser = await chromium.launch()
 
@@ -9,9 +8,10 @@ export async function getToken() {
   const page = await browser.newPage()
 
   // Navigate to the Express server
+  const tokenPromise = page.waitForResponse(/assets\/AccessTokenCheck/)
   await page.goto('https://order.chick-fil-a.com')
   try {
-    await page.waitForURL('**/get-started')
+    await tokenPromise
   } catch (e) {
     console.error(page.url())
     throw e
