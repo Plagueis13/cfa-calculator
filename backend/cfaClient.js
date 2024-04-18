@@ -10,7 +10,12 @@ export async function getToken() {
 
   // Navigate to the Express server
   await page.goto('https://order.chick-fil-a.com')
-  await page.waitForURL('https://order.chick-fil-a.com/get-started')
+  try {
+    await page.waitForURL('**/get-started')
+  } catch (e) {
+    console.error(page.url())
+    throw e
+  }
 
   const storageState = await page.context().storageState()
   const persistAuth = storageState.origins[0].localStorage.filter(
