@@ -1,10 +1,11 @@
 <template>
   <h2 v-if="errorMessage">{{ errorMessage }}</h2>
-  <table
-    v-if="locationStore.selectedStoreNumber && redeemableMenuItems.length > 0"
-    class="striped"
-    :aria-busy="loading"
+  <span
+    v-if="locationStore.selectedStoreNumber && redeemableMenuItems.length === 0 && !errorMessage"
+    :aria-busy="true"
+    >Getting prices...</span
   >
+  <table v-if="locationStore.selectedStoreNumber && redeemableMenuItems.length > 0" class="striped">
     <thead>
       <th style="cursor: pointer" @click="sort('name')">Item</th>
       <th style="cursor: pointer" @click="sort('price')">Price</th>
@@ -37,15 +38,18 @@ const errorMessage = ref('')
 watch(
   () => locationStore.selectedStoreNumber,
   async (newStoreNumber, oldStoreNumber) => {
-    if (newStoreNumber !== oldStoreNumber && newStoreNumber !== '') {
+    if (newStoreNumber !== oldStoreNumber) {
       loading.value = true
       redeemableMenuItems.value = []
+      errorMessage.value = ''
       try {
-        const response = await _client.getRedeemableMenuItems(newStoreNumber)
-        if (response.data) {
-          errorMessage.value = ''
-          redeemableMenuItems.value = response.data
-          sort('pointsPerDollar')
+        if (newStoreNumber !== '') {
+          const response = await _client.getRedeemableMenuItems(newStoreNumber)
+          if (response.data) {
+            errorMessage.value = ''
+            redeemableMenuItems.value = response.data
+            sort('pointsPerDollar')
+          }
         }
       } catch (error) {
         errorMessage.value = "This store's prices are protected"

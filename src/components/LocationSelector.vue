@@ -3,8 +3,9 @@
     <input v-model="zipCode" placeholder="Enter Zip Code" />
     <input type="submit" @click="fetchLocations" value="Search" />
   </fieldset>
-  <select v-if="locationOptions.length > 0" v-model="selectedLocation" :aria-busy="loading">
-    <option v-for="location in locationOptions" :key="location.id" :value="location">
+  <span v-if="loading" :aria-busy="true">Getting Locations...</span>
+  <select v-if="locationOptions.length > 0 && !loading" v-model="selectedLocation">
+    <option v-for="location in locationOptions" :key="location.id" :value="location.storeNumber">
       {{ location.name }}
     </option>
   </select>
@@ -17,14 +18,14 @@ import { useCfaLocation } from '@/stores/cfaLocation'
 
 const zipCode = ref('')
 const locationOptions = ref([])
-const selectedLocation = ref({})
+const selectedLocation = ref('')
 const locationStore = useCfaLocation()
 const loading = ref(false)
 
 const fetchLocations = async () => {
   loading.value = true
+  selectedLocation.value = ''
   try {
-    locationStore.setLocation('')
     locationOptions.value = (await _client.getLocations(zipCode.value)).data
   } catch (error) {
     console.error(error)
@@ -34,6 +35,6 @@ const fetchLocations = async () => {
 }
 
 watch(selectedLocation, () => {
-  locationStore.setLocation(selectedLocation.value.storeNumber)
+  locationStore.setLocation(selectedLocation.value)
 })
 </script>
