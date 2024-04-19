@@ -2,15 +2,10 @@ import axios from 'axios'
 
 export default class apiClient {
   static async getRedeemableMenuItems(storeNumber) {
-    try {
-      const items = await axios.get(
-        import.meta.env.VITE_APP_API_URL + '/getRedeemableMenuItems?storeNumber=' + storeNumber
-      )
-      return items
-    } catch (e) {
-      console.error('error getting redeemable menu items')
-      throw e
-    }
+    const items = await axios.get(
+      import.meta.env.VITE_APP_API_URL + '/getRedeemableMenuItems?storeNumber=' + storeNumber
+    )
+    return items
   }
 
   static async getLocations(zip) {

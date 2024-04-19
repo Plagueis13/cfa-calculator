@@ -1,5 +1,5 @@
 # Build Environment: Node + Playwright
-FROM mcr.microsoft.com/playwright:focal
+FROM node:lts-alpine
 
 # Env
 WORKDIR /app
@@ -9,9 +9,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 EXPOSE 3000
 
 # Copy all app files into Docker Work directory
-COPY backend/package*.json /app/
-COPY backend/app.js /app/
-COPY backend/cfaClient.js /app/
+COPY backend/ .
 
 # Install Deps
 RUN npm install

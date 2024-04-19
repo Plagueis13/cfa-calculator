@@ -1,0 +1,899 @@
+{
+  "redeemableItems": [
+    {
+      "tag": "SM_ICEDREAM_CONE_MR",
+      "name": "Icedream® Cone",
+      "points": 200,
+      "applicableItemTags": [
+        "STC_ICEDREAM_CUP",
+        "KD_ICEDREAM_CUP",
+        "SM_ICEDREAM_CONE",
+        "STC_ICEDREAM_CONE",
+        "FOODTRUCK_KD_ICEDREAM_CUP",
+        "FOODTRUCK_ICEDREAM_CONE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Menu%20Item/Small_cone.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Drinks/Drinks%20Desktop/_0000s_0027_%5BFeed%5D_0006s_0013_Drinks_Ice-Dream.png"
+    },
+    {
+      "tag": "COOKIE_CHOCOLATE_CHUNK",
+      "name": "Chocolate Chunk Cookie",
+      "points": 300,
+      "applicableItemTags": [
+        "COOKIE_CHOCOLATE_CHUNK_INDIVIDUAL",
+        "STC_COOKIE_CHOC_CHUNK",
+        "FOODTRUCK_COOKIE_CHOCOLATE_CHUNK_INDIVIDUAL"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Parent/one_cookie.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Treats/Treats%20Desktop/_0001s_0008_%5BFeed%5D_0005s_0006_Treats_Chocolate-Chunk-Cookie.png"
+    },
+    {
+      "tag": "BROWNIE_MR",
+      "name": "Chocolate Fudge Brownie",
+      "points": 300,
+      "applicableItemTags": ["BROWNIE", "STC_BROWNIE", "FOODTRUCK_BROWNIE"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/ChocolateFudgeBrownie_desk.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/ChocolateFudgeBrownie_desk.png"
+    },
+    {
+      "tag": "HASH_BROWN_SIDE",
+      "name": "Hash Browns Side",
+      "points": 300,
+      "applicableItemTags": ["HASH_BROWNS", "STC_HASH_BROWNS", "FOODTRUCK_HASH_BROWNS"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Parent/hash_browns.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0009_%5BFeed%5D_0000s_0028_Breakfast_Hashbrowns_2.png"
+    },
+    {
+      "tag": "SM_WAFFLE_POTATO_FRIES_MR",
+      "name": "Small Waffle Potato Fries®",
+      "points": 300,
+      "applicableItemTags": ["SM_WAFFLE_POTATO_FRIES", "FOODTRUCK_SM_WAFFLE_POTATO_FRIES"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Small_Lowered_1217shoot_800x800%20copy.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Small_Lowered_1217shoot_800x800.png"
+    },
+    {
+      "tag": "HOT_COFFEE_MR",
+      "name": "Coffee",
+      "points": 400,
+      "applicableItemTags": ["SM_COFFEE"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Parent/Dec19_Coffee_mobile.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Drinks/Dec19_Coffee_Desktop.png"
+    },
+    {
+      "tag": "SWEET_TEA_INDIVIDUAL",
+      "name": "Freshly-Brewed Iced Tea",
+      "points": 400,
+      "applicableItemTags": [
+        "MD_SWEET_TEA",
+        "LG_SWEET_TEA",
+        "SM_SWEET_TEA",
+        "STC_SWEET_TEA",
+        "LG_SWEET_UNSWEET",
+        "MD_SWEET_UNSWEET",
+        "SM_SWEET_UNSWEET",
+        "STC_SWEET_UNSWEET",
+        "LG_TEA_UNSWEET",
+        "SM_TEA_UNSWEET",
+        "MD_TEA_UNSWEET",
+        "STC_TEA_UNSWEET",
+        "LG_SWEET_UNSWEET",
+        "MD_SWEET_UNSWEET",
+        "SM_SWEET_UNSWEET",
+        "STC_SWEET_UNSWEET",
+        "SM_CHERRY_BERRY_SWEETTEA",
+        "STC_SM_CHERRY_BERRY_SWEETTEA",
+        "SM_CHERRY_BERRY_UNSWEETTEA",
+        "STC_SM_CHERRY_BERRY_UNSWEETTEA"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Parent/tea_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Drinks/tea_desktop.png"
+    },
+    {
+      "tag": "SM_KALE_CRUNCH_MR",
+      "name": "Kale Crunch Side",
+      "points": 400,
+      "applicableItemTags": [
+        "SM_KALE_CRUNCH",
+        "LG_KALE_CRUNCH",
+        "STC_SM_KALE_CRUNCH",
+        "FOODTRUCK_LG_KALE_CRUNCH"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Parent/01.2020_KaleCrunchSide_sm_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/kaleCrunch_sm_desk.png"
+    },
+    {
+      "tag": "MD_WAFFLE_POTATO_FRIES_MR",
+      "name": "Medium Waffle Potato Fries®",
+      "points": 400,
+      "applicableItemTags": ["MD_WAFFLE_POTATO_FRIES", "FOODTRUCK_MD_WAFFLE_POTATO_FRIES"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Medium_Lowered_1217shoot_800x800%20copy.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Medium_Lowered_1217shoot_800x800.png"
+    },
+    {
+      "tag": "FOUNTAIN_DRINKS_ALL",
+      "name": "Soft Drink",
+      "points": 400,
+      "applicableItemTags": [
+        "SM_COCA_COLA",
+        "MD_COCA_COLA",
+        "LG_COCA_COLA",
+        "STC_COCA_COLA",
+        "LG_DIET_COKE",
+        "MD_DIET_COKE",
+        "SM_DIET_COKE",
+        "STC_DIET_COKE",
+        "LG_CAF_FREE_DTCOKE",
+        "MD_CAF_FREE_DTCOKE",
+        "SM_CAF_FREE_DTCOKE",
+        "STC_CAF_FREE_DTCOKE",
+        "LG_DIET_DRPEPPER",
+        "MD_DIET_DRPEPPER",
+        "SM_DIET_DRPEPPER",
+        "STC_DIET_DRPEPPER",
+        "MD_DRPEPPER",
+        "SM_DRPEPPER",
+        "LG_DRPEPPER",
+        "STC_DRPEPPER",
+        "LG_COKE_ZERO",
+        "MD_COKE_ZERO",
+        "SM_COKE_ZERO",
+        "STC_COKE_ZERO",
+        "LG_CHERRY_COKE",
+        "SM_CHERRY_COKE",
+        "MD_CHERRY_COKE",
+        "STC_CHERRY_COKE",
+        "LG_BARQS",
+        "MD_BARQS",
+        "SM_BARQS",
+        "STC_BARQS",
+        "LG_POWERADE",
+        "MD_POWERADE",
+        "SM_POWERADE",
+        "STC_POWERADE",
+        "MD_FANTA_ORANGE",
+        "LG_FANTA_ORANGE",
+        "SM_FANTA_ORANGE",
+        "STC_FANTA_ORANGE",
+        "MD_FANTA_APPLE",
+        "LG_FANTA_APPLE",
+        "SM_FANTA_APPLE",
+        "LG_SPRITE",
+        "MD_SPRITE",
+        "SM_SPRITE",
+        "STC_SPRITE",
+        "MD_HIC_PUNCH",
+        "SM_HIC_PUNCH",
+        "LG_HIC_PUNCH",
+        "STC_HIC_PUNCH",
+        "MD_HIC_ORANGE",
+        "SM_HIC_ORANGE",
+        "LG_HIC_ORANGE",
+        "LG_MELLO_YELLO",
+        "MD_MELLO_YELLO",
+        "SM_MELLO_YELLO"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Parent/Coke.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Drinks/Drinks%20Desktop/_0000s_0022_Feed_Menu_0000_Drinks_Coca-cola.png"
+    },
+    {
+      "tag": "LG_WAFFLE_POTATO_FRIES_MR",
+      "name": "Large Waffle Potato Fries®",
+      "points": 500,
+      "applicableItemTags": ["LG_WAFFLE_POTATO_FRIES", "FOODTRUCK_LG_WAFFLE_POTATO_FRIES"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Large_Lowered_1217shoot_800x800%20copy.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Large_Lowered_1217shoot_800x800.png"
+    },
+    {
+      "tag": "CHICK_N_STRIPTS_2_COUNT_MR",
+      "name": "2 ct Chick-n-Strips®",
+      "points": 600,
+      "applicableItemTags": ["CHICK_N_STRIPS_2_COUNT"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/2_strips.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/strips_2ct_PDP_Desk.png"
+    },
+    {
+      "tag": "5CT_NUGGETS_MR",
+      "name": "5 ct Nuggets",
+      "points": 600,
+      "applicableItemTags": ["5CT_NUGGETS"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/Dec2019_CFANuggets_5ct_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/Dec2019_CFANuggets_5ct_Desktop.png"
+    },
+    {
+      "tag": "8OZ_SAUCES_MR",
+      "name": "8oz Sauce",
+      "points": 600,
+      "applicableItemTags": [
+        "8OZ_BBQSAUCE_BOTTLE_ALACARTE",
+        "8OZ_CFASAUCE_BOTTLE_ALACARTE",
+        "8OZ_HONEYMUSTSAUCE_BOTTLE_ALACARTE",
+        "8OZ_RANCHSAUCE_BOTTLE_ALACARTE",
+        "8OZ_POLYSAUCE_BOTTLE_ALACARTE",
+        "FOODTRUCK_8OZ_CFASAUCE_BOTTLE_ALACARTE",
+        "FOODTRUCK_8OZ_POLYSAUCE_BOTTLE_ALACARTE",
+        "FOODTRUCK_8OZ_RANCHSAUCE_BOTTLE_ALACARTE",
+        "FOODTRUCK_8OZ_BBQSAUCE_BOTTLE_ALACARTE",
+        "FOODTRUCK_8OZ_HONEYMUSTSAUCE_BOTTLE_ALACARTE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Submenus/subMenu_BottledSauces.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Modifiers/Sauces/8ozBottles/Apr2020_BottledSauces_desk.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png"
+    },
+    {
+      "tag": "ICED_COFFEE_MR",
+      "name": "Iced Coffee",
+      "points": 600,
+      "applicableItemTags": [
+        "SM_ICED_COFFEE",
+        "STC_SM_ICED_COFFEE",
+        "SM_ICED_COFFEE_VANILLA",
+        "STC_DH_SM_ICED_COFFEE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Parent/190925_IcedCoffee_400x400.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Drinks/190925_IcedCoffee_800x800.png"
+    },
+    {
+      "tag": "LEMONADE_MEMBERSHIP_REWARDS",
+      "name": "Lemonade",
+      "points": 600,
+      "applicableItemTags": [
+        "LG_LEMONADE",
+        "MD_LEMONADE",
+        "SM_LEMONADE",
+        "STC_LEMONADE",
+        "LG_LEMONADE_DIET_LEMONADE",
+        "LG_SWEET_TEA_LEMONADE",
+        "LG_UNSWEET_TEA_LEMONADE",
+        "MD_LEMONADE_DIET_LEMONADE",
+        "MD_SWEET_TEA_LEMONADE",
+        "MD_UNSWEET_TEA_LEMONADE",
+        "SM_SWEET_TEA_LEMONADE",
+        "SM_LEMONADE_DIET_LEMONADE",
+        "SM_UNSWEET_TEA_LEMONADE",
+        "STC_LEMONADE_DIET_LEMONADE",
+        "STC_SWEET_TEA_LEMONADE",
+        "STC_UNSWEET_TEA_LEMONADE",
+        "SM_DIET_LEMONADE",
+        "MD_DIET_LEMONADE",
+        "LG_DIET_LEMONADE",
+        "SM_CHERRY_BERRY_LEMONADE",
+        "STC_SM_CHERRY_BERRY_LEMONADE",
+        "SM_CHERRY_BERRY_DIET_LEMONADE",
+        "STC_SM_CHERRY_BERRY_DIET_LEMONADE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Menu%20Item/Edited_400x280/Lemonade_Mobile.webp"
+    },
+    {
+      "tag": "SUNJOY_MR",
+      "name": "Sunjoy®",
+      "points": 600,
+      "applicableItemTags": [
+        "LG_SWEET_TEA_DIET_LEMONADE",
+        "LG_SWEET_TEA_LEMONADE",
+        "LG_UNSWEET_TEA_DIET_LEMONADE",
+        "LG_UNSWEET_TEA_LEMONADE",
+        "MD_SWEET_TEA_DIET_LEMONADE",
+        "MD_SWEET_TEA_LEMONADE",
+        "MD_UNSWEET_TEA_DIET_LEMONADE",
+        "MD_UNSWEET_TEA_LEMONADE",
+        "KD_SWEET_TEA_DIET_LEMONADE",
+        "SM_SWEET_TEA_DIET_LEMONADE",
+        "KD_SWEET_TEA_LEMONADE",
+        "SM_SWEET_TEA_LEMONADE",
+        "KD_UNSWEET_TEA_DIET_LEMONADE",
+        "SM_UNSWEET_TEA_DIET_LEMONADE",
+        "KD_UNSWEET_TEA_LEMONADE",
+        "SM_UNSWEET_TEA_LEMONADE",
+        "STC_SWEET_TEA_LEMONADE",
+        "STC_SWEET_TEA_DIET_LEMONADE",
+        "STC_UNSWEET_TEA_DIET_LEMONADE",
+        "STC_UNSWEET_TEA_LEMONADE",
+        "SM_CHERRY_BERRY_SWEETTEA_LEM",
+        "STC_SM_CHERRY_BERRY_SWEETTEA_LEM",
+        "SM_CHERRY_BERRY_SWEETTEA_DIET_LEM",
+        "STC_SM_CHERRY_BERRY_SWEETTEA_DIET_LEM",
+        "SM_CHERRY_BERRY_UNSWEETTEA_DIET_LEM",
+        "STC_SM_CHERRY_BERRY_UNSWEETTEA_DIET_LEM",
+        "SM_CHERRY_BERRY_UNSWEETTEA_LEM",
+        "STC_SM_CHERRY_BERRY_UNSWEETTEA_LEM"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Menu%20Item/Edited_400x280/HalfTeaHalfLem_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Drinks/halfTeaHalfLem_desktop.png"
+    },
+    {
+      "tag": "CHICK_N_MINIS_4_MR",
+      "name": "4 ct Chick-n-Minis®",
+      "points": 700,
+      "applicableItemTags": [
+        "CHICK_N_MINIS_4_COUNT",
+        "STC_CHICK_N_MINIS_4_COUNT",
+        "FOODTRUCK_CHICK_N_MINIS_4_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/Edited_400x280/4ctMinis_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0014_%5BFeed%5D_0000s_0024_Breakfast_Chicken-Mini-4ct.png"
+    },
+    {
+      "tag": "CFA_BISCUIT",
+      "name": "Chicken Breakfast Sandwich",
+      "points": 700,
+      "applicableItemTags": [
+        "BISCUIT_CHICKEN",
+        "STC_BISCUIT_CHICKEN",
+        "BISCUIT_SPICY_CHICKEN",
+        "CEC_BISCUIT",
+        "CEC_MUFFIN",
+        "FOODTRUCK_BISCUIT_CHICKEN",
+        "FOODTRUCK_BISCUIT_SPICY_CHICKEN"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/Edited_400x280/ChickenBiscuit_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0000_Stack620_0000_CFA_1605_60_Biscuit_Chicken_PROD_2155_1240px.png"
+    },
+    {
+      "tag": "BISCUIT_SAUSAGE_MR",
+      "name": "Sausage/Bacon Breakfast Sandwich",
+      "points": 700,
+      "applicableItemTags": [
+        "BEC_MUFFIN",
+        "BEC_BISCUIT",
+        "SEC_BISCUIT",
+        "SEC_MUFFIN",
+        "BISCUIT_SAUSAGE",
+        "STC_BISCUIT_SAUSAGE",
+        "STC_BISC_BACON",
+        "BISCUIT_BACON",
+        "FOODTRUCK_BISCUIT_BACON",
+        "FOODTRUCK_BISCUIT_SAUSAGE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/sausage_bisc.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/Catering/Breakfast/Sausage_Biscuit.png"
+    },
+    {
+      "tag": "GRILLED_NUGS_5_CT_MR",
+      "name": "5 ct Grilled Nuggets",
+      "points": 800,
+      "applicableItemTags": ["GRILLED_NUGS_5_CT"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/Dec2019_GrilledNuggets_5ct_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/Dec2019_GrilledNuggets_5ct_Desktop.png"
+    },
+    {
+      "tag": "CFA_SANDWICH",
+      "name": "Chicken Sandwich",
+      "points": 800,
+      "applicableItemTags": [
+        "SANDWICH_CFA_CHICKEN",
+        "STC_SANDWICH_CFA_CHICKEN",
+        "FOODTRUCK_SANDWICH_CFA_CHICKEN"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/Classic_Sandwich.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/Jul19_CFASandwich_desktop800.png"
+    },
+    {
+      "tag": "SM_CHICKEN_SOUP_MR",
+      "name": "Cup of Soup",
+      "points": 800,
+      "applicableItemTags": ["SM_CHICKEN_SOUP", "STC_SM_CHICKEN_SOUP", "TEST_SM_CHICKEN_SOUP"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Parent/Chicken_Soup.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Chicken-Noodle-Soup_Small_Desk.png"
+    },
+    {
+      "tag": "SMALL_FROSTED_ALL",
+      "name": "Frosted Beverage",
+      "points": 800,
+      "applicableItemTags": [
+        "SM_FROSTED_COFFEE",
+        "SM_FROSTED_LEMONADE",
+        "SM_DIET_FROSTED_LEMONADE",
+        "STC_SM_DIET_FROSTED_LEMONADE",
+        "STC_SM_FROSTED_COFFEE",
+        "STC_SM_FROSTED_LEMONADE",
+        "FROSTED_CHERRY_BERRY_LEM",
+        "STC_FROSTED_CHERRY_BERRY_LEM",
+        "FROSTED_CHERRY_BERRY_DIET_LEM",
+        "STC_FROSTED_CHERRY_BERRY_DIET_LEM"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Parent/frostedLemonade.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Drinks/Drinks%20Desktop/_0000s_0000_FrostedLemonade.png"
+    },
+    {
+      "tag": "YOGURT_GREEK_PARFAIT_MR",
+      "name": "Greek Yogurt Parfait",
+      "points": 800,
+      "applicableItemTags": [
+        "STC_YOGURT_GREEK_PARFAIT_COOKIE",
+        "TEST_CCPRFT",
+        "YOGURT_GREEK_PARFAIT_COOKIE",
+        "PARFAIT_COOKIE_NOFRUIT",
+        "STC_YOGURT_GREEK_PARFAIT_GRANOLA",
+        "TEST_GRNLPRFT",
+        "YOGURT_GREEK_PARFAIT_GRANOLA",
+        "PARFAIT_GRANOLA_NOFRUIT",
+        "FOODTRUCK_YOGURT_GREEK_PARFAIT_GRANOLA",
+        "FOODTRUCK_YOGURT_GREEK_PARFAIT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Parent/Jul19_OrganicAussieGreekYogurtParfaitCupGranola_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Jul19_OrganicAussieGreekYogurtParfaitCupGranola_desktop800.png"
+    },
+    {
+      "tag": "FRUIT_CUP_MEDIUM_SMALL",
+      "name": "Medium Fruit Cup",
+      "points": 800,
+      "applicableItemTags": [
+        "FRUIT_CUP_SMALL",
+        "TEST_SMALL_FRTCP",
+        "TEST_MEDIUM_FRTCP",
+        "FRUIT_CUP_MEDIUM",
+        "STC_FRUIT_CUP_SMALL",
+        "STC_FRUIT_CUP_MED",
+        "FOODTRUCK_FRUIT_CUP_SMALL",
+        "FOODTRUCK_FRUIT_CUP_MEDIUM"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Md_Fruit.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Sides/Sides%20Desktop/_0006s_0010_%5BFeed%5D_0003s_0002_Sides_Fruit-Cup.png"
+    },
+    {
+      "tag": "MACNCHEESE_MR",
+      "name": "Medium Mac & Cheese",
+      "points": 800,
+      "applicableItemTags": ["TEST_MD_MACNCHEESE", "TEST_SM_MACNCHEESE", "MAC_CHEESE_DH"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/Individual/Menu/Sides/MacnCheese_4oz.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/Individual/Menu/Sides/MacnCheese_5oz.png"
+    },
+    {
+      "tag": "SM_MILKSHAKE_RWD",
+      "name": "Milkshake",
+      "points": 800,
+      "applicableItemTags": [
+        "SM_STRAWBERRY_MILKSHAKE",
+        "SM_COOKIES_CREAM_MILKSHAKE",
+        "SM_CHOCOLATE_MILKSHAKE",
+        "SM_VANILLA_MILKSHAKE",
+        "SM_CHOCO_SHAKE",
+        "SM_VANILLA_SHAKE",
+        "SM_STRAWBERRY_SHAKE",
+        "SM_COOKIES_SHAKE",
+        "STC_VANILLA_MILKSHAKE",
+        "STC_STRAWBERRY_MILKSHAKE",
+        "STC_CHOCOLATE_MILKSHAKE",
+        "STC_COOKIES_CREAM_MILKSHAKE",
+        "FOODTRUCK_SM_VANILLA_MILKSHAKE",
+        "FOODTRUCK_SM_CHOCOLATE_MILKSHAKE",
+        "FOODTRUCK_SM_STRAWBERRY_MILKSHAKE",
+        "FOODTRUCK_SM_COOKIES_CREAM_MILKSHAKE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Edited_400x280/CCMilkshake_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Treats/Treats%20Desktop/_0001s_0000_%5BFeed%5D_0005s_0004_Treats_Cookies-Cream-Milkshake.png"
+    },
+    {
+      "tag": "SALAD_SIDE_MR",
+      "name": "Side Salad",
+      "points": 800,
+      "applicableItemTags": ["STC_SALAD_SIDE", "SALAD_SIDE", "FOODTRUCK_SALAD_SIDE"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Side_Salad.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/sideSalad_desk.png"
+    },
+    {
+      "tag": "SPICY_CHICKEN_SAND",
+      "name": "Spicy Chicken Sandwich",
+      "points": 800,
+      "applicableItemTags": [
+        "SPICY_CHICKEN_CFA_SANDWICH",
+        "STC_SANDWICH_SPICY",
+        "FOODTRUCK_SPICY_CHICKEN_CFA_SANDWICH"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/Spicy_Sandwich.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20Desktop/_0003s_0008_Final__0052_CFA_PDP_Spicy-Chick-Fil-A-Sandwich_1085.png"
+    },
+    {
+      "tag": "CHICK_N_STRIPS_3_COUNT_MR",
+      "name": "3 ct Chick-n-Strips®",
+      "points": 900,
+      "applicableItemTags": [
+        "CHICK_N_STRIPS_3_COUNT",
+        "STC_CHICK_N_STRIPS_3_COUNT",
+        "FOODTRUCK_CHICK_N_STRIPS_3_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/3_strips.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/strips_3ct_PDP_Desk.png"
+    },
+    {
+      "tag": "NUGGETS_8_MR",
+      "name": "8 ct Nuggets",
+      "points": 900,
+      "applicableItemTags": [
+        "STC_NUGGETS_CFA_8_CT",
+        "NUGGETS_CFA_8_COUNT",
+        "FOODTRUCK_NUGGETS_CFA_8_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/8_breaded_nuggets.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/nuggets_8ct_PDP_Desk.png"
+    },
+    {
+      "tag": "EGG_WHITE_CHKN_SAND",
+      "name": "Egg White Grill",
+      "points": 900,
+      "applicableItemTags": ["EGG_WHITE_GRILL", "STC_EGGWHITE_GRILL"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/Edited_400x280/EggWhiteGrill_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0027_%5BFeed%5D_0000s_0011_Breakfast_Egg-White-Griller.png"
+    },
+    {
+      "tag": "HASHBROWN_BOWL",
+      "name": "Hash Brown Scramble Bowl",
+      "points": 900,
+      "applicableItemTags": [
+        "HBS_NOHASH_GRILLED",
+        "HBS_NOHASH_SAUSAGE",
+        "HBS_NOHASH_NUG",
+        "HBS_GRILLED_FILET",
+        "HBS_SAUSAGE",
+        "HBS_NUGGETS",
+        "HBS_BOWL_SPICY",
+        "STC_HB_BOWL_GF",
+        "STC_HB_BOWL_NUG",
+        "STC_HB_BOWL_SAUS",
+        "STC_HBS_NOHASH_SAUSAGE",
+        "STC_NOHB_BOWL_NUG",
+        "STC_NOHB_BOWL_CFA",
+        "HBS_BOWL_NOMEAT",
+        "HBS_BOWL_NOHASH_BACON",
+        "HBS_BOWL_BACON",
+        "HBS_BOWL_NOMEAT_NO_HB",
+        "STC_HBS_BOWL_NOMEAT",
+        "STC_HBS_BOWL_NOMEAT_NO_HB",
+        "STC_HBS_BOWL_NOHASH_BACON",
+        "STC_HBS_BOWL_BACON",
+        "HBS_BOWL_SPICY_NOHB"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Parent/hash_brown_scramble_bowl.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0005_ChickenHashbrownBreakfastBowl-pdp_Hearty-Breakfast-Bowl_resize2.png"
+    },
+    {
+      "tag": "HBS_BURRITO",
+      "name": "Hash Brown Scramble Burrito",
+      "points": 900,
+      "applicableItemTags": [
+        "NO_HBS_BUR_FILET",
+        "NO_HBS_BUR_SAUSAGE",
+        "NO_HBS_BUR_NUG",
+        "HB_BUR_NUGGETS",
+        "HBS_BUR_FILET",
+        "HBS_BUR_SAUSAGE",
+        "STC_HBS_BUR_FILET",
+        "STC_HB_BUR_NUGGETS",
+        "STC_HBS_BUR_SAUSAGE",
+        "HBS_BURRITO_BACON_NOHB",
+        "HB_BUR_NOMEAT",
+        "HBS_BOWL_NOMEAT_NO_HB",
+        "HBS_BURRITO_BACON",
+        "STC_HBS_BURRITO_BACON",
+        "STC_HBS_BURRITO_BACON_NOHB",
+        "STC_BURRITO_NOMEAT_NO_HB",
+        "STC_HB_BUR_NOMEAT",
+        "HBS_BURRITO_SPICY",
+        "HBS_BURRITO_SPICY_NOHB"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/HBS_Burrito_nuggets.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Breakfast/Breakfast%20Desktop/_0000s_0004_ChickenSausageBurrito-pdp_1797v2_2880px_resize2.png"
+    },
+    {
+      "tag": "NUGGETS_GRILLED_8_MR",
+      "name": "8 ct Grilled Nuggets",
+      "points": 1000,
+      "applicableItemTags": ["GRILLED_NUGGETS_8_COUNT", "STC_GRILLED_NUGGETS_8_COUNT"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/8_grilled_nuggets.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/grilledNuggets_8ct_PDP_Desk.png"
+    },
+    {
+      "tag": "CFA_DELUXE_SANDWICH",
+      "name": "Deluxe Sandwich",
+      "points": 1000,
+      "applicableItemTags": [
+        "DELUXE_NO_CHEESE",
+        "DELUXE_PEPPER_JACK",
+        "DELUXE_COLBY_JACK",
+        "DELUXE_AMERICAN",
+        "STC_DELUXE_NO_CHEESE",
+        "STC_DELUXE_PEPPER_JACK",
+        "STC_DELUXE_COLBY_JACK",
+        "STC_DELUXE_AMERICAN"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/cfaDeluxe_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20Desktop/_0003s_0003_NEWStack6200001CFAPDPDeluxeSandwich1085png.png"
+    },
+    {
+      "tag": "SPICY_DELUXE_SANDWICH",
+      "name": "Spicy Deluxe Sandwich",
+      "points": 1000,
+      "applicableItemTags": [
+        "SPICY_DELUXE_NO_CHEESE",
+        "SPICY_DELUXE_COLBY_JACK",
+        "SPICY_DELUXE_PEPPER_JACK",
+        "SPICY_DELUXE_AMERICAN",
+        "STC_SPICY_DLX_CJ",
+        "STC_SPCY_DLX_NO_CHEESE",
+        "STC_SPICY_DELUXE_PEPPER_JACK",
+        "STC_SPICY_DELUXE_AMERICAN"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/Spicy_deluxe_sandwich.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20Desktop/_0003s_0012_%5BFeed%5D_0001s_0023_Entrees_Spicy-Deluxe-Sandwich.png"
+    },
+    {
+      "tag": "NUGGETS_CFA_12_COUNT_MR",
+      "name": "12 ct Nuggets",
+      "points": 1200,
+      "applicableItemTags": [
+        "FOODTRUCK_NUGGETS_CFA_12_COUNT",
+        "NUGGETS_CFA_12_COUNT",
+        "STC_NUGGETS_CFA_12_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/12_breaded_nuggets.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/nuggets_12ct_Desk.png"
+    },
+    {
+      "tag": "STRIPS_4_MR",
+      "name": "4 ct Chick-n-Strips®",
+      "points": 1200,
+      "applicableItemTags": [
+        "CHICK_N_STRIPS_4_COUNT",
+        "STC_CHICK_N_STRIPS_4_COUNT",
+        "FOODTRUCK_CHICK_N_STRIPS_4_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/4_strips.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/strips_4ct_PDP_Desk.png"
+    },
+    {
+      "tag": "LG_CHICKEN_SOUP_MR",
+      "name": "Bowl of Soup",
+      "points": 1200,
+      "applicableItemTags": ["LG_CHICKEN_SOUP"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Sides/Menu%20Item/Md_Chicken_Soup.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/Catering/Sides/Chicken_Noodle_Soup.png"
+    },
+    {
+      "tag": "GRILLED_CHICKEN_SAND",
+      "name": "Grilled Chicken Sandwich",
+      "points": 1200,
+      "applicableItemTags": [
+        "GRILLED_CHICKEN_SANDWICH",
+        "STC_GRILLED_CHICKEN_SANDWICH",
+        "GRILLED_LEMONHERB"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/Grilled_sandwich.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/PDP_UPDATE/Images/Entrees/Grilled%20Deluxe%20Sandwich.png"
+    },
+    {
+      "tag": "KD_MEAL_MR",
+      "name": "Kid's Meal",
+      "points": 1200,
+      "applicableItemTags": ["KD_MEAL_GRILLED_NUGGETS_5", "KD_MEAL_NUG_5CT", "KD_MEAL_STRIPS_2"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Kids%20Meals/Parent/kidsMeal_grilledNuggets_mobile.webp",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png"
+    },
+    {
+      "tag": "GRILLED_NUGGETS_12_COUNT_MR",
+      "name": "12 ct Grilled Nuggets",
+      "points": 1500,
+      "applicableItemTags": ["GRILLED_NUGGETS_12_COUNT", "STC_GRILLED_NUGGETS_12_COUNT"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Online/Entrees/grilledNuggets_12ct_PDP_Desk.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20Desktop/_0003s_0041_%5BFeed%5D_0001s_0001_Entrees_Grilled-Nuggets_12ct.png"
+    },
+    {
+      "tag": "COOKIE_CHOCOLATE_CHUNK_6_COUNT_MR",
+      "name": "6 ct Cookie",
+      "points": 1500,
+      "applicableItemTags": [
+        "COOKIE_CHOCOLATE_CHUNK_6_COUNT",
+        "STC_COOKIE_CHOCOLATE_CHUNK_6_COUNT",
+        "FOODTRUCK_COOKIE_CHOCOLATE_CHUNK_6_COUNT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Desserts/Parent/6_count_cookies.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/ccCookieBag_6pk_Desk.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png"
+    },
+    {
+      "tag": "COOL_WRAP_GRILLED_RWD",
+      "name": "Cool Wrap",
+      "points": 1500,
+      "applicableItemTags": [
+        "WRAP_TEST",
+        "COOL_WRAP_GRILLED",
+        "STC_COOL_WRAP_GRILLED",
+        "SPICY_COOL_WRAP",
+        "STC_SPICY_COOL_WRAP",
+        "FOODTRUCK_COOL_WRAP_GRILLED"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/Grilled_Wrap.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20Desktop/_0003s_0034_%5BFeed%5D_0001s_0011_Entrees_Grilled-Chicken-Wrap.png"
+    },
+    {
+      "tag": "GALLON_TEAS_MR",
+      "name": "Gallon Freshly-Brewed Iced Tea",
+      "points": 1500,
+      "applicableItemTags": [
+        "GALLON_TEA_UNSWEET",
+        "GALLON_TEA_SWEET",
+        "GALLON_HALF_SWEET_HALF_UNSWEET_TEA"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/COM/PDP_UPDATE/Images/Drinks/gallon_tea.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Drinks/Drinks Desktop/_0000s_0007_PDP_0000s_0010_tea_gallon.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png"
+    },
+    {
+      "tag": "GRILLED_CHICKEN_CLUB",
+      "name": "Grilled Chicken Club Sandwich",
+      "points": 1500,
+      "applicableItemTags": [
+        "GRILLED_CLUB_NO_CHEESE",
+        "GRILLED_CLUB_PEPPER_JACK",
+        "GRILLED_CLUB_COLBY_JACK",
+        "GRILLED_CLUB_AMERICAN",
+        "STC_GRILLED_CLUB_AMERICAN",
+        "STC_GRILLED_CLUB_COLBY_JACK",
+        "STC_GRILLED_CLUB_PEPPER_JACK",
+        "STC_GRILLED_CLUB_NO_CHEESE"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Parent/grilledChickenClub_test.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/grilledClub_colbyJack_PDP_Desk.png"
+    },
+    {
+      "tag": "CHICK_N_MINIS_10_CT_MR",
+      "name": "10 ct Chick-n-Minis™",
+      "points": 1700,
+      "applicableItemTags": ["CHICK_N_MINIS_10_CT", "STC_CHICK_N_MINIS_10_CT"],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/Edited_400x280/10ctMinis_mobile.png",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Breakfast/10ctMinis_Desk.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/red.png"
+    },
+    {
+      "tag": "MEMBERSHIP_REWARDS_SALADS_MR",
+      "name": "Salad",
+      "points": 2000,
+      "applicableItemTags": [
+        "COBB_GRILLED_CHICKEN",
+        "COBB_GRILLED_NUGGETS",
+        "COBB_NO_MEAT",
+        "COBB_NUGGETS",
+        "SPICY_SOUTHWEST_SALAD_SGF",
+        "COBB_STRIPS",
+        "SALAD_SPICY_SOUTHWEST_STRIPS",
+        "SALAD_SPICY_SOUTHWEST_NO_MEAT",
+        "SALAD_SPICY_SOUTHWEST_NUGGETS",
+        "SALAD_MARKET_GRILLED_NUGGETS",
+        "SALAD_SPICY_SOUTHWEST_GRILLED_NUGGETS",
+        "SALAD_SPICY_SOUTHWEST_FILET_GRILLED",
+        "SALAD_GRILLED_MARKET",
+        "MARKET_SPCYGRILL",
+        "SALAD_MARKET_NO_MEAT",
+        "SALAD_MARKET_NUGGETS",
+        "SALAD_MARKET_STRIPS",
+        "SALAD_CFA_FILET_MARKET",
+        "SALAD_CFA_FILET_SPCYSW",
+        "SALAD_CFA_FILET_COBB",
+        "SALAD_SPCY_FILET_COBB",
+        "SALAD_COBB_GRLFILET_WARM",
+        "FOODTRUCK_COBB_GRILLED_CHICKEN",
+        "FOODTRUCK_SALAD_COBB_NOMEAT",
+        "FOODTRUCK_SALAD_GRILLED_MARKET",
+        "FOODTRUCK_SALAD_MARKET_NOMEAT",
+        "FOODTRUCK_SALAD_SPICY_SOUTHWEST_SPICY_FILET",
+        "FOODTRUCK_SALAD_SPICY_SOUTHWEST_FILET_GRILLED",
+        "FOODTRUCK_SALAD_SPICY_SOUTHWEST_NOMEAT"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Salads/Menu%20Item/cobb_nuggets_mobile_nodressing.webp"
+    },
+    {
+      "tag": "30_CT_NUGGETS_MR",
+      "name": "30 ct Nuggets",
+      "points": 2500,
+      "applicableItemTags": [
+        "FOODTRUCK_30_CT_NUGGETS",
+        "30_CT_NUGGETS",
+        "STC_30_CT_NUGGETS",
+        "30_CT_GRILLED_NUGGETS"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Entrees/Menu%20Item/30Nug_400.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Entrees/nuggets_30ct_PDP_Desk.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png"
+    },
+    {
+      "tag": "CFA_SANDWICH_MEAL_MR",
+      "name": "Meal",
+      "points": 2500,
+      "applicableItemTags": [
+        "CFA_SANDWICH_MEAL",
+        "COOL_WRAP_MEAL",
+        "GRILLED_SANDWICH_MEAL",
+        "DELUXE_COLBYJACK_MEAL",
+        "STRIPS_4CT_MEAL",
+        "STRIPS_3CT_MEAL",
+        "NUGGETS_GRILLED_12CT_MEAL",
+        "NUGGETS_GRILLED_8CT_MEAL",
+        "NUGGETS_8CT_MEAL",
+        "NUGGETS_12CT_MEAL",
+        "SPICY_DELUXE_AMERICAN_MEAL",
+        "SPICY_PJ_MEAL",
+        "SPICY_DELUXE_CJ_MEAL",
+        "DELUXE_PEPPERJACK_MEAL",
+        "DELUXE_NOCHEESE_MEAL",
+        "DELUXE_AMERICAN_MEAL",
+        "SPICY_MEAL",
+        "CLUB_CJ_MEAL",
+        "CLUB_PJ_MEAL",
+        "CLUB_AMERICAN_MEAL",
+        "CLUB_NOCHEESE_MEAL",
+        "EGG_WHITE_CHKN_MEAL",
+        "BISCUIT_BEC_MEAL",
+        "MUFFIN_SEC_MEAL",
+        "BISCUIT_SEC_MEAL",
+        "MUFFIN_BEC_MEAL",
+        "MINIS_4CT_MEAL",
+        "SPICY_BISCUIT_MEAL",
+        "CFA_BISCUIT_MEAL",
+        "HBS_BOWL_NUG_NOHB",
+        "HBS_BOWL_SPICY_NOHB_MEAL",
+        "HBS_BWL_GRL_NOHB_MEAL",
+        "HBS_NUG_BOWL_MEAL",
+        "HBS_SAUS_BOWL_MEAL",
+        "HBS_SPICY_BOWL_MEAL",
+        "MEAL_HBS_BWL_GRILLED",
+        "HBS_BOWL_SAUS_NOHB",
+        "BURRITO_CHKN_MEAL",
+        "HBS_NUG_BURRITO_MEAL",
+        "HBS_BUR_NUG_NOHB_MEAL",
+        "HBS_SAUS_BURRITO_MEAL",
+        "HBS_BUR_SAUS_NOHB_MEAL",
+        "HBS_SPICY_BURRITO_MEAL",
+        "HBS_BUR_SPICY_NOHB_MEAL",
+        "MEAL_HBS_BUR_GRILLED",
+        "HBS_BUR_GRL_NOHB_MEAL",
+        "BAGEL_CEC_MEAL",
+        "HBS_BURR_BACON_MEAL",
+        "HBS_NOMEAT_BURRITO_MEAL",
+        "HBS_BURR_BACON_NOHB_MEAL",
+        "BURRITO_NOMEAT_NO_HB",
+        "HBS_BOWL_BACON",
+        "HBS_NOMEAT_BOWL_MEAL",
+        "HBS_BWL_BACON_NOHB_MEAL",
+        "HBS_BOWL_NOMEAT_NOHB",
+        "SPICY_COOL_WRAP_MEAL",
+        "SW_VEGGIE_WRAP_MEAL",
+        "SPICY_DELUXE_NOCHEESE_MEAL"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Meals/Parent/meals_mobile.webp"
+    },
+    {
+      "tag": "GALLON_LEMONADES_MR",
+      "name": "Gallon Lemonade",
+      "points": 3000,
+      "applicableItemTags": [
+        "GALLON_LEMONADE_REG",
+        "GALLON_LEMONADE_DIET",
+        "GALLON_HALF_REG_HALF_DIET_LEM"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Parent/lemonadeGallon_400.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Drinks/Drinks Desktop/lemonadeGallon_desktop.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png"
+    },
+    {
+      "tag": "GALLON_SUNJOY_MR",
+      "name": "Gallon Sunjoy®",
+      "points": 3000,
+      "applicableItemTags": [
+        "GALLON_SWEETTEA_LEM",
+        "GALLON_SWTTEA_DIETLEM",
+        "GALLON_UNSWTTEA_DIETLEM",
+        "GALLON_UNSWT_LEM"
+      ],
+      "pdpImageUrlMobile": "https://www.cfacdn.com/img/order/menu/Mobile/Beverages/Menu%20Item/Edited_400x280/GallonSunjoy_mobile.webp",
+      "pdpImageUrlWeb": "https://www.cfacdn.com/img/order/menu/Online/Drinks/sunjoyGallon_desk.png",
+      "annotationImageUrlMobile": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png",
+      "annotationImageUrlWeb": "https://onecdn.my.chick-fil-a.com/images/rewards/signature.png"
+    }
+  ]
+}

@@ -24,6 +24,7 @@ const loading = ref(false)
 const fetchLocations = async () => {
   loading.value = true
   try {
+    locationStore.setLocation('')
     locationOptions.value = (await _client.getLocations(zipCode.value)).data
   } catch (error) {
     console.error(error)

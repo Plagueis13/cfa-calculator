@@ -1,12 +1,19 @@
 <template>
-  <table v-if="locationStore.selectedStoreNumber">
+  <h2 v-if="errorMessage">{{ errorMessage }}</h2>
+  <table
+    v-if="locationStore.selectedStoreNumber && redeemableMenuItems.length > 0"
+    class="striped"
+    :aria-busy="loading"
+  >
     <thead>
-      <th @click="sort('name')">Item</th>
-      <th @click="sort('price')">Price</th>
-      <th @click="sort('points')">Points</th>
-      <th @click="sort('pointsPerDollar')">Points/$</th>
+      <th style="cursor: pointer" @click="sort('name')">Item</th>
+      <th style="cursor: pointer" @click="sort('price')">Price</th>
+      <th style="cursor: pointer" @click="sort('points')" data-tooltip="Points may be out of date">
+        Points
+      </th>
+      <th style="cursor: pointer" @click="sort('pointsPerDollar')">Points/$</th>
     </thead>
-    <tbody :aria-busy="loading">
+    <tbody>
       <tr v-for="item in redeemableMenuItems" :key="item.id">
         <td>{{ item.name }}</td>
         <td>{{ item.price }}</td>
@@ -25,18 +32,23 @@ import { useCfaLocation } from '@/stores/cfaLocation'
 const redeemableMenuItems = ref([])
 const loading = ref(false)
 const locationStore = useCfaLocation()
+const errorMessage = ref('')
 
 watch(
   () => locationStore.selectedStoreNumber,
   async (newStoreNumber, oldStoreNumber) => {
-    if (newStoreNumber !== oldStoreNumber) {
+    if (newStoreNumber !== oldStoreNumber && newStoreNumber !== '') {
       loading.value = true
+      redeemableMenuItems.value = []
       try {
         const response = await _client.getRedeemableMenuItems(newStoreNumber)
-        redeemableMenuItems.value = response.data
-        sort('pointsPerDollar')
+        if (response.data) {
+          errorMessage.value = ''
+          redeemableMenuItems.value = response.data
+          sort('pointsPerDollar')
+        }
       } catch (error) {
-        console.error(error)
+        errorMessage.value = "This store's prices are protected"
       } finally {
         loading.value = false
       }
