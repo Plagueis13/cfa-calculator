@@ -1,9 +1,7 @@
-import fs from 'fs'
+import json from './RewardsContent.json' assert { type: 'json' }
 import axios from 'axios'
 
 export async function getRedeemableItems() {
-  const data = fs.readFileSync('/app/RewardsContent.json')
-  const json = JSON.parse(data)
   return json.redeemableItems
 }
 

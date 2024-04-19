@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "be": "node backend/app.js"
+    "be": "node backend/app.js",
+    "be-dev": "node backend/app.js"
   },
   "dependencies": {
     "@picocss/pico": "^2.0.6",

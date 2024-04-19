@@ -5,6 +5,7 @@
   </fieldset>
   <span v-if="loading" :aria-busy="true">Getting Locations...</span>
   <select v-if="locationOptions.length > 0 && !loading" v-model="selectedLocation">
+    <option disabled selected value="">Select a location</option>
     <option v-for="location in locationOptions" :key="location.id" :value="location.storeNumber">
       {{ location.name }}
     </option>
